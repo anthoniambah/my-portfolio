@@ -41,27 +41,53 @@ function About() {
         know continuous practice will help. I hope to grow and be a better
         version of myself.
       </Box>
-      <Flex w={["100%", "70%"]} m="auto" flexDirection='row' flexWrap="wrap"  px={["3.5", '0']}>
+      <Flex
+        w={["100%", "70%"]}
+        m="auto"
+        flexDirection="row"
+        flexWrap="wrap"
+        px={["3.5", "0"]}
+      >
         <Link to="/">
-          <Button mt={["3", "10"]} size={["md", "lg"]} variant="outline" colorScheme="teal">
+          <Button
+            mt={["3", "10"]}
+            size={["md", "lg"]}
+            variant="outline"
+            colorScheme="teal"
+          >
             Home
           </Button>
         </Link>
         <Spacer />
         <Link to="/about">
-          <Button mt={["3", "10"]} size="lg" variant="outline" colorScheme="teal">
+          <Button
+            mt={["3", "10"]}
+            size="lg"
+            variant="outline"
+            colorScheme="teal"
+          >
             About Me
           </Button>
         </Link>
         <Spacer />
         <Link to="/projects">
-          <Button mt={["3", "10"]} size="lg" variant="outline" colorScheme="teal">
+          <Button
+            mt={["3", "10"]}
+            size="lg"
+            variant="outline"
+            colorScheme="teal"
+          >
             Projects
           </Button>
         </Link>
         <Spacer />
         <Link to="/contactme">
-          <Button mt={["3", "10"]} size="lg" variant="outline" colorScheme="teal">
+          <Button
+            mt={["3", "10"]}
+            size="lg"
+            variant="outline"
+            colorScheme="teal"
+          >
             Contact Me
           </Button>
         </Link>
