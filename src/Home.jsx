@@ -2,13 +2,12 @@ import React from "react";
 import "./Home.css";
 import { Heading, Box, Flex, Spacer, Button, Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import bg from "../public/assets/bg1.jpg";
-import image3 from "../public/assets/image3.png";
+
 
 function Home() {
   return (
     <Flex
-      bgImage={bg}
+      bgImage="/assets/bg1.jpg"
       bgSize="cover"
       h="100vh"
       w="100%"
@@ -28,7 +27,7 @@ function Home() {
           <Image
             p={["3", "5"]}
             boxShadow="2xl"
-            src={image3}
+            src="/assets/image3.png"
             alt=""
             width="100%"
             h={["40vh", "50vh"]}
