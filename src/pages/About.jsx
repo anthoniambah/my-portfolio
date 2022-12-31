@@ -8,7 +8,7 @@ function About() {
     <Box
       bgImage="/assets/bg1.jpg"
       bgSize="cover"
-      h="100vh"
+      minH="100vh"
       w="100%"
       bgRepeat="no-repeat"
       //   flexDirection="column"
