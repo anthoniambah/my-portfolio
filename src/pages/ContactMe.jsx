@@ -18,7 +18,7 @@ function ContactMe() {
     <Box
       bgImage="/assets/bg1.jpg"
       bgSze="cover"
-      h="100vh"
+      minH="100vh"
       w="100%"
       bgRepeat="no-repeat"
       color="white"
