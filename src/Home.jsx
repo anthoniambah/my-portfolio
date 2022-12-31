@@ -2,8 +2,8 @@ import React from "react";
 import "./Home.css";
 import { Heading, Box, Flex, Spacer, Button, Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import bg from "../public/assets/bg1.jpg";
-import image3 from "../public/assets/image3.png";
+import bg from "../../public/assets/bg1.jpg";
+import image3 from "../../public/assets/image3.png";
 
 function Home() {
   return (
